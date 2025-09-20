@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/skoltransport/static/css/main.45681e6c.css",
-    "main.js": "/skoltransport/static/js/main.2e6d2e7f.js",
+    "main.js": "/skoltransport/static/js/main.60d09c67.js",
     "index.html": "/skoltransport/index.html",
     "main.45681e6c.css.map": "/skoltransport/static/css/main.45681e6c.css.map",
-    "main.2e6d2e7f.js.map": "/skoltransport/static/js/main.2e6d2e7f.js.map"
+    "main.60d09c67.js.map": "/skoltransport/static/js/main.60d09c67.js.map"
   },
   "entrypoints": [
     "static/css/main.45681e6c.css",
-    "static/js/main.2e6d2e7f.js"
+    "static/js/main.60d09c67.js"
   ]
 }
