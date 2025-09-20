@@ -1,0 +1,95 @@
+/* Tailwind CSS kommer att laddas via CDN */
+
+/* Touch-specifika stilar för mobil */
+@media (hover: none) and (pointer: coarse) {
+  .address-item[draggable="true"] {
+    touch-action: none;
+  }
+  
+  .drag-handle {
+    padding: 12px;
+    margin: -12px;
+    min-width: 44px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Förbättra touch-targets för knappar */
+  .btn {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  .btn-xs {
+    min-height: 36px;
+    min-width: 36px;
+  }
+  
+  /* Förbättra input-fält för touch */
+  .input {
+    min-height: 44px;
+  }
+  
+  .input-sm {
+    min-height: 40px;
+  }
+  
+  /* Förbättra spacing för touch */
+  .card-body {
+    padding: 16px;
+  }
+  
+  /* Förbättra textstorlek för läsbarhet */
+  .text-xs {
+    font-size: 14px;
+  }
+  
+  .text-sm {
+    font-size: 16px;
+  }
+}
+
+/* Förbättra responsivitet */
+@media (max-width: 640px) {
+  /* Mindre padding på mobil */
+  .card-body {
+    padding: 12px;
+  }
+  
+  /* Fullbredd knappar på mobil */
+  .btn {
+    width: 100%;
+  }
+  
+  /* Förbättra flexbox för mobil */
+  .flex-col {
+    gap: 8px;
+  }
+  
+  /* Förbättra textstorlek */
+  .text-lg {
+    font-size: 18px;
+  }
+  
+  .text-xl {
+    font-size: 20px;
+  }
+  
+  .text-2xl {
+    font-size: 22px;
+  }
+}
+
+/* Förbättra scroll på mobil */
+@media (max-width: 768px) {
+  body {
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .min-h-screen {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+  }
+}
